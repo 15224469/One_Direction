@@ -1,0 +1,51 @@
+
+
+h1 {
+    text-align: center;
+
+}
+
+h2{
+    border: 20px solid rgb(223, 143, 255);
+    padding: 5px;    
+    text-align: center;
+    margin: 60px;
+    border-radius: 25px;
+
+}
+
+li{
+    font-size: medium;
+}
+
+.caixaA{
+    background-color: rgb(191, 154, 240);
+    padding: 30px;
+    margin: 20px;
+    border-radius: 45px; 
+}
+
+.caixaB{
+    background-color: rgb(191, 154, 240);
+    margin: 20px;
+    padding: 30px;
+    border-radius: 45px;
+}
+
+header{
+    padding: 40px; 
+/* adiciona um espaçamento interno de 40 pixels em todos os quatro lados*/
+
+main{
+    margin: 40px;
+/*define um espaçamento externo uniforme de 40 pixels em todos os quatro lados  */
+}
+
+section{
+    border: 4px solid black;
+/* */
+}
+
+aside{
+    background-color: rgb(255, 255, 202);
+}
