@@ -1,0 +1,3 @@
+function mostrarPremios() {
+    alert("A One Direction conquistou diversos prêmios importantes ao longo de sua carreira, consolidando-se como um dos maiores fenômenos da música pop dos anos 2010. A banda venceu vários American Music Awards, destacando-se como Artista do Ano, além de múltiplos MTV Video Music Awards e MTV Europe Music Awards. Também recebeu Brit Awards, reconhecendo seu impacto na música britânica, e diversos Teen Choice Awards, demonstrando sua enorme popularidade entre o público jovem. Com recordes de vendas, turnês esgotadas e milhões de fãs ao redor do mundo, a One Direction se tornou uma das bandas mais premiadas e influentes de sua geração.");
+}

@@ -1,0 +1,134 @@
+/* Reset básico para visualização */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.btn-curiosidade {
+    background-color: #ff91e3;
+    color: rgb(41, 40, 40);
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    display: block;
+    margin: 30px auto;
+
+}
+
+.btn-curiosidade:hover {
+    background-color: #e60da1;
+    transform: scale(1.05);
+    color: #ffbae8;
+}
+
+nav {
+    background-color: #ffbae8;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #d628a2;
+    font-weight: bold;
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card-1d {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.foto img {
+  width: 400px;  
+  height: auto;
+  border-radius: 20px;
+}
+
+
+.titulo-card {
+    text-align: center;
+    color: #d628a2;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.info-extra {
+    background-color: #ffe3f9;
+    padding: 15px;
+    margin: 30px;
+    border-radius: 5px;
+    max-width: 200px;
+    border-left: 5px solid #d628a2;
+    width: 50%px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffc6fc;
+    color: rgb(0, 0, 0);
+}
+
+.discografia{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.discografia img{
+    width: 250px;
+    transition: transform 0.5s ease;
+    box-shadow: 5px 5px 15px rgb(211, 117, 187);
+}
+
+.discografia img:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 10px 25px rgb(219, 19, 159);
+}
+
+.conteudo-card p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.menu-principal {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
